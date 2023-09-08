@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="4010" started-at="2023-09-06T10:03:22 WIB" finished-at="2023-09-06T10:03:26 WIB">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="4010" started-at="2023-09-06T10:03:22 WIB" finished-at="2023-09-06T10:03:26 WIB">
+      <class name="step_definitions.search.SearchViaCategorySteps">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:step_definitions.search.SearchViaCategorySteps@7a187f14]" name="setDriver" is-config="true" duration-ms="1610" started-at="2023-09-06T10:03:22 WIB" finished-at="2023-09-06T10:03:24 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="openGoogle()[pri:0, instance:step_definitions.search.SearchViaCategorySteps@7a187f14]" name="openGoogle" duration-ms="2280" started-at="2023-09-06T10:03:24 WIB" finished-at="2023-09-06T10:03:26 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:step_definitions.search.SearchViaCategorySteps@7a187f14]" name="closeBrowser" is-config="true" duration-ms="108" started-at="2023-09-06T10:03:26 WIB" finished-at="2023-09-06T10:03:26 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- step_definitions.search.SearchViaCategorySteps -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

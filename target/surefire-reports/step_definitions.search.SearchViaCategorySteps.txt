@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: step_definitions.search.SearchViaCategorySteps
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.184 s - in step_definitions.search.SearchViaCategorySteps
