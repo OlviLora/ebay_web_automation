@@ -8,6 +8,8 @@ Feature: Access Product via Category Page
     Then user redirect to category "Cell phones & accessories" page
     When user click section "Cell Phones & Smartphones"
     Then user redirect to search listing product "Cell Phones & Smartphones"
-    # When user apply filter
-    # Then user see product listing related to the filter applied
+    When user click all filters
+    Then user verify filter pop up window is displayed
+    And user apply filter "New" "5000000" "Asia"
+    Then user see product listing and filter "New" "5,000,000" "Asia" applied
     And user close the browser
