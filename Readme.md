@@ -17,14 +17,14 @@ The scenario in this web automation consists of 2 features:
 ## How to Run?
 1. Clone the repository or unzipped the file.
 ```
-git clone git@github.com:OlviLora/herokuapp_automation.git
+git clone git@github.com:OlviLora/ebay_web_automation.git
 ```
 2. Go to the repository automation and open in the Editor.
 3. Add Dependency defined in pom.xml file by running script below to load all the dependency in local.
 ```
-add script to run maven
+mvn clean install
 ```
-4. **Update the location on the chromedriver** → open file src/test/java/step_definitions/base/BaseSteps.java → update function setDriver()
+4. **Update the location on the chromedriver** → open file `src/test/java/step_definitions/base/BaseSteps.java` → update function `setDriver()`
    ```System.setProperty("web-driver.chrome.driver", "<chromedriver location on local>");```
-5. **Run the scenario** → Right click the each file and select Run file name.
+5. **Run the scenario** → Right click the each feature file `src/test/resources/features.search/*.feature` and select Run Feature.
 6. **Test Automation is running** It will open the chrome browser automatically and run each steps on the scenario.
