@@ -11,16 +11,16 @@ The scenario in this web automation consists of 2 features:
 - Selenium
 - Cucumber
 - Chromedriver
-- Editor Intellij/Eclipse
+- Editor Intellij
 - Git
 
 ## How to Run?
-1. Clone the repository or unzipped the repository
+1. Clone the repository or unzipped the file.
 ```
 git clone git@github.com:OlviLora/herokuapp_automation.git
 ```
-2. Go to the repository automation and open in the Editor
-3. **Add Dependency** → The dependency of this project defined in pom.xml file, run script below to load all the dependency in local
+2. Go to the repository automation and open in the Editor.
+3. Add Dependency defined in pom.xml file by running script below to load all the dependency in local.
 ```
 add script to run maven
 ```
